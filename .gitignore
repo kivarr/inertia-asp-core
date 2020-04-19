@@ -33,10 +33,12 @@ msbuild.log
 msbuild.err
 msbuild.wrn
 
+
+
 # Visual Studio 2015
 .vs/
-node_modules
-/dist
+node_modules/ 
+wwwroot/dist/
 
 # local env files
 .env.local
@@ -50,5 +52,4 @@ yarn-error.log*
 # Editor directories and files
 *.ntvs*
 *.njsproj
-*.sln
 *.sw?
